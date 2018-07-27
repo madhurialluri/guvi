@@ -9,13 +9,14 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
+		Scanner sc=new Scanner(System.in);
 		int a=8;
-		System.out.println("Enter a value");
 		if(a>0)
-		System.out.println("Given value is +ve");
-		if (a<0)
-		System.out.println("given value is -ve");
-		if(a==0)
-		System.out.println("given value is 0");
+		System.out.println("Positive");
+		else if (a<0)
+		System.out.println("Negative");
+		else if(a=0)
+		System.out.println("zero");
+		
 	}
 }
