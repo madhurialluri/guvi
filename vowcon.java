@@ -10,8 +10,8 @@ class Ideone
 		char ch;
 		ch=sc.next().charAt(0);
 		if(ch== 'a' || ch== 'e' || ch== 'i' || ch=='o'|| ch=='u')
-		System.out.println("given character is Vowel");
-		else 
-		System.out.println("given character is Constant");
+		System.out.println("Vowel");
+		else if(ch== '@' || ch=='#' || ch=='%' || ch=='^' || ch=='&' || ch=='*')
+		System.out.println("Consonant");
 	}
 }	
