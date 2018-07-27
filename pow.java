@@ -9,7 +9,7 @@ class Ideone
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
-		int base = 3, exponent = 4;
+		int base = 2, exponent = 3;
 
         long result = 1;
 
