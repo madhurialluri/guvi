@@ -12,7 +12,7 @@ class Ideone
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
 		String ones[] = {" ", " one", " two", " three", " four", " five", " six", " seven", " eight", " nine", " ten"};
-		int n,string;
+		int n;
 		n=sc.nextInt();
 		{
 			if(n<=10)
