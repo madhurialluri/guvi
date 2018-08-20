@@ -11,7 +11,7 @@ class Ideone
 	{
 		// your code goes here
 		Scanner sc=new Scanner(System.in);
-		String ones[] = {" ", " ONE", " TWO", " THREE", " FOUR", " FIVE", " SIX", " SEVEN", " EIGHT", " NINE", " TEN"};
+		String ones[] = {" ", " one", " two", " three", " four", " five", " six", " seven", " eight", " nine", " ten"};
 		int n,string;
 		n=sc.nextInt();
 		{
